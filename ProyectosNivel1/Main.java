@@ -9,10 +9,12 @@ class Ejecutar {
         int entero = 15;
         String enteroTexto = String.valueOf(entero);
         System.out.println("numero en texto: " + enteroTexto);
+
         //De double a entero Narrowing
         double myDouble = 1.618;
         int myInt = (int)myDouble;
         System.out.println(myInt);
+
         //De Entero a double Widening
         int numero2 = 182;
         double decimal =  numero2;
@@ -21,7 +23,7 @@ class Ejecutar {
     static void operadores(){
         int valor1, valor2, valor3, resultado;
 
-        /*Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         System.out.println("Ingrese el valor 1...");
         valor1 = entrada.nextInt();
         System.out.println("Ingrese el valor2");
@@ -37,7 +39,7 @@ class Ejecutar {
         resultado = valor1/valor2;
         System.out.println("Division: " + resultado);
         resultado = valor1 % valor2;
-        System.out.println("Residuo: " + resultado);*/
+        System.out.println("Residuo: " + resultado);
 
         //incremento , decremento
         int numero1 = 5;
