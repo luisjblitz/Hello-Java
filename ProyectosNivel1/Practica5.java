@@ -11,9 +11,7 @@ public class Practica5 {
         frame.setAlwaysOnTop(true);
         String pruebasTexto = JOptionPane.showInputDialog(frame, "Ingrese la  cantidad de pruebas realizadas (número entero)...");
         int pruebas = Integer.parseInt(pruebasTexto);
-/*sumar a la puntuación base el resultado de multiplicar
-la cantidad de pruebas por 5" y luego "multiplicar la
- puntuación resultante por la cantidad de pruebas"*/
+
         puntuacionBase++;
         int producto = pruebas * 5;
         puntuacionBase+=producto;
